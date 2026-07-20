@@ -6,12 +6,21 @@ from playwright.sync_api import Playwright, sync_playwright
 
 def run(playwright: Playwright) -> None:
     # -------- AUTO SET YESTERDAY DATE --------
-    yesterday = datetime.now() - timedelta(days=1)
-    start_date = yesterday.strftime("%Y-%m-%d")
-    end_date = yesterday.strftime("%Y-%m-%d")
+ #   yesterday = datetime.now() - timedelta(days=1)
+  #  start_date = yesterday.strftime("%Y-%m-%d")
+   # end_date = yesterday.strftime("%Y-%m-%d")
 
 
 
+
+    # -------- FIXED DATE --------
+start_date = "2026-07-17"
+end_date = "2026-07-17"
+
+
+
+
+    
 
     
     browser = playwright.chromium.launch(headless=False)
