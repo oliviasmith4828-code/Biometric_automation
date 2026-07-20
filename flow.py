@@ -14,8 +14,8 @@ def run(playwright: Playwright) -> None:
 
 
     # -------- FIXED DATE --------
-start_date = "2026-07-17"
-end_date = "2026-07-17"
+    start_date = "2026-07-17"
+    end_date = "2026-07-17"
 
 
 
