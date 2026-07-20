@@ -47,7 +47,7 @@ def run(playwright: Playwright) -> None:
 
     # ---------------- FILTERS ----------------
     page.get_by_role("listitem").filter(has_text="Position").click()
-    page.get_by_role("listitem").filter(has_text="Position").click()
+    #page.get_by_role("listitem").filter(has_text="Position").click()
     page.locator("#dailyAttendanceReport-tree-position_9_check").click()
 
     page.wait_for_timeout(2000)
