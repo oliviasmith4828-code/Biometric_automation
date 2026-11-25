@@ -1,0 +1,11 @@
+.venv/
+.env
+downloads/
+logs/
+__pycache__/
+*.pyc
+error.png
+reports_debug.png
+
+.env.*
+!.env.example
